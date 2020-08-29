@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Moving : MonoBehaviour
+public class catchSpace : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -13,6 +13,9 @@ public class Moving : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if(Input.GetKey(KeyCode.Space))
+        {
+            Debug.Log("Space pressed");
+        }
     }
 }
